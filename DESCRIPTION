@@ -1,0 +1,20 @@
+Package: lplsReg
+Type: Package
+Title: Package for lpls regression and classification
+Version: 0.5
+Date: 2016-11-09
+Author: Solve S<c3><a6>b<c3><b8>
+Maintainer: Solve S<c3><a6>b<c3><b8> <solve.sabo@nmbu.no>
+Description: LPLS-regression is a multivariate method for exploring the linear relationship between a predictor matrix X2 and a response vector/matrix X1 under the potential influence of a background knowledge matrix X3 for the variables in X2.
+License: GPL-2
+RoxygenNote: 6.0.1
+LazyData: true
+Depends: R (>= 2.10)
+Imports:
+  car,
+  graphics,
+  grDevices,
+  stats
+Suggests:
+  pls,
+  simrel
