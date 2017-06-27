@@ -1,5 +1,6 @@
 LPLS Regression
 ================
+Solve Sæbø
 
 LPLS - model regression
 -----------------------
@@ -16,7 +17,7 @@ fit.class <- lplsReg(factor(BCdata$Y),  BCdata$X,  BCdata$Z,  npc = 10)
 plot(fit.class)
 ```
 
-![](README_files/figure-markdown_github-ascii_identifiers/cars-1.png)
+![](figure/cars-1.png)
 
 ``` r
 # For regression,  drop the factor() statement and 

@@ -1,10 +1,13 @@
 ---
 title: "LPLS Regression"
-output: github_document
+author: Solve Sæbø
+output: 
+  github_document:
+    html_preview: no
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, fig.height = 7)
+knitr::opts_chunk$set(fig.path = "figure/", echo = TRUE, message = FALSE, warning = FALSE, fig.height = 7)
 ```
 
 ## LPLS - model regression
@@ -13,7 +16,7 @@ Based on the NIPALS algorithm this function fits an LPLS - regression model to a
 
 ## Example
 
-```{r cars}
+```{r cars, results='hide'}
 library(lplsReg)
 data(BCdata)
 fit.class <- lplsReg(factor(BCdata$Y),  BCdata$X,  BCdata$Z,  npc = 10)
@@ -22,5 +25,5 @@ plot(fit.class)
 # For regression,  drop the factor() statement and 
 # treat the response as a continuous variable.
 fit.reg <- lplsReg(BCdata$Y,  BCdata$X,  BCdata$Z,  npc = 10)
-
 ```
+
