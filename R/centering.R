@@ -14,7 +14,7 @@
 #' subtraction by the overall (grand) mean of all matrix elements. Only applies
 #' if both rowcenter and colcenter are \code{FALSE}.
 #' @return A centered matrix
-#' @author Solve S<c3><a6>b<c3><b8>
+#' @author Solve Saebo
 #' @keywords lpls centering
 #' @examples
 #'
@@ -26,27 +26,27 @@ centering <- function(Mat, rowcenter = FALSE,  colcenter = FALSE,  grandcenter =
 
   dims <- dim(Mat)
 
-  if(rowcenter & colcenter){
+  if (rowcenter & colcenter) {
     rowm   <- apply(Mat, 1, mean)
     colm   <- apply(Mat, 2, mean)
     grandm <- mean(Mat)
-    Mat    <- Mat - t(matrix(rep(1, dims[2]), ncol = 1)%*%rowm) -
-      matrix(rep(1, dims[1]), ncol = 1)%*%colm  +
+    Mat    <- Mat - t(matrix(rep(1, dims[2]), ncol = 1) %*% rowm) -
+      matrix(rep(1, dims[1]), ncol = 1) %*% colm  +
       matrix(grandm, nrow = dims[1], ncol = dims[2])
   }
-  else if(rowcenter){
+  else if (rowcenter) {
     Mat    <- t(scale(t(Mat), scale = F))
     rowm   <- attr(Mat, "scaled:center")
     colm   <- rep(0, dims[2])
     grandm <- 0
   }
-  else if(colcenter){
+  else if (colcenter) {
     Mat    <- scale(Mat, scale = F)
     colm   <- attr(Mat, "scaled:center")
     rowm   <- rep(0, dims[1])
     grandm <- 0
   }
-  else if(grandcenter){
+  else if (grandcenter) {
     rowm   <- rep(0, dims[1])
     colm   <- rep(0, dims[2])
     grandm <- mean(Mat)

@@ -61,7 +61,7 @@
 #' \code{refit = TRUE}.}
 #' \item{varfreq }{The frequency of variables being
 #' selected across outer cross-validation segments.}
-#' @author Solve S<c3><a6>b<c3><b8>
+#' @author Solve Saebo
 #' @keywords lpls double-CV regression classification
 #' @examples
 #'

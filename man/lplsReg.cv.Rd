@@ -92,7 +92,7 @@ segs <- balanced.folds(BCdata$Y, 5)
 fit.cv <- lplsReg.cv(factor(BCdata$Y),  BCdata$X,  BCdata$Z,  folds = segs)
 }
 \author{
-Solve S<c3><a6>b<c3><b8>
+Solve Saebo
 }
 \keyword{-}
 \keyword{classification}

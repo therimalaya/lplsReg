@@ -30,10 +30,11 @@ NIPALS algorithm.
 \examples{
 
 data(BCdata)
-extractscores(BCdata$Y,  BCdata$X,  BCdata$Z)
+scores <- extractscores(BCdata$Y,  BCdata$X,  BCdata$Z)
+str(scores)
 }
 \author{
-Solve S<c3><a6>b<c3><b8>
+Solve Saebo
 }
 \keyword{NIPALS}
 \keyword{latent}

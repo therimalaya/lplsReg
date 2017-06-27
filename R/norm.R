@@ -5,7 +5,7 @@
 #'
 #' @param vec A numerical vector
 #' @return The normalized vector
-#' @author Solve S<c3><a6>b<c3><b8>
+#' @author Solve Saebo
 #' @keywords lpls normalization
 #' @examples
 #'

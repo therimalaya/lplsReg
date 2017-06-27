@@ -93,7 +93,7 @@ fit.dcv <- lplsReg.dcv(factor(BCdata$Y),  BCdata$X,  BCdata$Z,
                        outerfolds  =  segs,  innernfolds  =  5)
 }
 \author{
-Solve S<c3><a6>b<c3><b8>
+Solve Saebo
 }
 \keyword{classification}
 \keyword{double-CV}

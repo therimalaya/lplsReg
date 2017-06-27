@@ -35,7 +35,7 @@ pred <- predict(fit, 5, X2new = BCdata$X[1:10,])
 pred$pred
 }
 \author{
-Solve S<c3><a6>b<c3><b8>
+Solve Saebo
 }
 \keyword{lpls}
 \keyword{prediction}

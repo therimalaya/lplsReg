@@ -35,7 +35,7 @@ data(BCdata)
 Xc <- centering(BCdata$X,  FALSE,  TRUE,  FALSE)
 }
 \author{
-Solve S<c3><a6>b<c3><b8>
+Solve Saebo
 }
 \keyword{centering}
 \keyword{lpls}

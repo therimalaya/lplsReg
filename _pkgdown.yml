@@ -1,0 +1,18 @@
+authors:
+  Solve Sæbø:
+    href: http://solvsa.nmbu.no
+navbar:
+  title: "LPLS - model regression"
+  type: inverse
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Reference"
+      href: reference/index.html
+  right:
+    - text: "github"
+      icon: fa-github fa-lg
+      href: https://github.com/therimalaya/lplsreg
+template:
+  params:
+    bootswatch: cosmo

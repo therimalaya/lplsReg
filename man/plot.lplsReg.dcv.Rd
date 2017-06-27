@@ -26,7 +26,7 @@ High selection frequency may be considered as a measure of variable
 importance and stability.
 }
 \author{
-Solve S<c3><a6>b<c3><b8>
+Solve Saebo
 }
 \keyword{posterior}
 \keyword{variable-selection}

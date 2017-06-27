@@ -14,7 +14,7 @@
 #' \item{beta0 }{The estimated intercept in the lpls-regression model} 
 #' \item{beta1}{The estimated vector of regression coefficients for the p 
 #' predictor variables in X2.}
-#' @author Solve S<c3><a6>b<c3><b8>
+#' @author Solve Saebo
 #' @keywords lpls prediction
 #' @examples
 #'

@@ -17,7 +17,7 @@ matrix.
 Summary function for lplsReg double cross-validation objects.
 }
 \author{
-Solve S<c3><a6>b<c3><b8>
+Solve Saebo
 }
 \keyword{classification}
 \keyword{error-rate}

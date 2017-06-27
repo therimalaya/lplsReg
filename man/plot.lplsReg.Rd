@@ -49,7 +49,7 @@ fit <- lplsReg(BCdata$Y, BCdata$X, BCdata$Z, npc = 10)
 plot(fit)
 }
 \author{
-Solve S<c3><a6>b<c3><b8>
+Solve Saebo
 }
 \keyword{biplot}
 \keyword{correlation-loadings}

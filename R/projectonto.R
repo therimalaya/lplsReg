@@ -7,7 +7,7 @@
 #' @param A A centered matrix whose columns will be projected onto
 #' @param b this centered vector
 #' @return A vector of slope coefficients.
-#' @author Solve S<c3><a6>b<c3><b8>
+#' @author Solve Saebo
 #' @keywords lpls projection
 #' @examples
 #'

@@ -13,12 +13,13 @@
 #' @param threshold A threshold parameter in [0, 1) for potential
 #' soft - thresholding of the rows of X3.
 #' @return Returns a list og six latent vectors (normalized).
-#' @author Solve S<c3><a6>b<c3><b8>
+#' @author Solve Saebo
 #' @keywords latent lpls NIPALS
 #' @examples
 #'
 #' data(BCdata)
-#' extractscores(BCdata$Y,  BCdata$X,  BCdata$Z)
+#' scores <- extractscores(BCdata$Y,  BCdata$X,  BCdata$Z)
+#' str(scores)
 #' @export
 extractscores <-
   function(X1, X2, X3, niter=5, threshold=0){
@@ -26,10 +27,10 @@ extractscores <-
     for (k in 1:niter) {
       t12 <- norm(projectonto(t(X1), t11))
       t22 <- norm(projectonto(X2, t12))
-      if(is.null(X3)){
+      if (is.null(X3)) {
         t31 <- t22
         t32 <- 0
-      }else{
+      } else {
         t32 <- projectonto(t(X3), t22)
         if(threshold>0){
           t32 <- t32/max(abs(t32))
