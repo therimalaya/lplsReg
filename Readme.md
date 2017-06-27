@@ -31,7 +31,7 @@ Installation
 You can install this package from github with the help of `devtools` as,
 
 ``` r
-# devtools::install_github("therimalaya/lplsreg")
+# devtools::install_github("therimalaya/lplsReg")
 library(lplsReg)
 ```
 
@@ -40,4 +40,4 @@ Documentation
 
 A very nice documentation with all examples is availiable at,
 
-<https://therimalaya.github.io/lplsreg/index.html>
+<https://therimalaya.github.io/lplsReg/index.html>
