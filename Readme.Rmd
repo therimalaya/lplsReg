@@ -40,5 +40,5 @@ library(lplsReg)
 
 A very nice documentation with all examples is availiable at,
 
-[https://therimalaya.github.io/lplsreg/index.html](https://therimalaya.github.io/lplsreg/index.html)
+[https://therimalaya.github.io/lplsReg/index.html](https://therimalaya.github.io/lplsReg/index.html)
 
