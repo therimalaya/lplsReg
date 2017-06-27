@@ -24,3 +24,20 @@ plot(fit.class)
 # treat the response as a continuous variable.
 fit.reg <- lplsReg(BCdata$Y,  BCdata$X,  BCdata$Z,  npc = 10)
 ```
+
+Installation
+------------
+
+You can install this package from github with the help of `devtools` as,
+
+``` r
+# devtools::install_github("therimalaya/lplsreg")
+library(lplsReg)
+```
+
+Documentation
+-------------
+
+A very nice documentation with all examples is availiable at,
+
+<https://therimalaya.github.io/lplsreg/index.html>
