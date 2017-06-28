@@ -34,7 +34,7 @@ scores <- extractscores(BCdata$Y,  BCdata$X,  BCdata$Z)
 str(scores)
 }
 \author{
-Solve Saebo
+Solve SÃ¦bÃ¸
 }
 \keyword{NIPALS}
 \keyword{latent}

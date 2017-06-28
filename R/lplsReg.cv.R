@@ -60,7 +60,7 @@
 #' \item{sigvars}{An array of logicals defining wether a variable is
 #' found to be significant or not. Significance is given for all levels of
 #' components and alpha, }
-#' @author Solve Saebo
+#' @author Solve Sæbø
 #' @keywords lpls cross - validation regression classification
 #' @examples
 #'

@@ -3,7 +3,11 @@ Type: Package
 Title: Package for lpls regression and classification
 Version: 0.5
 Date: 2016-11-09
-Authors@R: c(person("Solve", "Saebo", role = c("aut", "cre"), email = "solve.sabo@nmbu.no"))
+Encoding: latin1
+Authors@R: c(
+    person("Solve", "Sæbø", role = c("aut", "cre", "cph"), email = "solve.sabo@nmbu.no"),
+    person("Raju", "Rimal", role = c("ctb"), email = "raju.rimal@nmbu.no")
+  )
 Description: LPLS-regression is a multivariate method for exploring the linear relationship between a predictor matrix X2 and a response vector/matrix X1 under the potential influence of a background knowledge matrix X3 for the variables in X2.
 License: GPL-2
 RoxygenNote: 6.0.1

@@ -10,7 +10,7 @@
 #' @return
 #' \item{total.error }{The total classification error}
 #' \item{conf.matrix }{The (g x g) confusion matrix}
-#' @author Solve Saebo
+#' @author Solve Sæbø
 #' @keywords classification error
 #' @examples
 #'

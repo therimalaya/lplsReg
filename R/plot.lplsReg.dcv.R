@@ -14,7 +14,7 @@
 #' @param object A double-Cv object as returned from \code{lplsReg.dcv}
 #' @param identifyVariable Logical. Should interactive variable identification
 #' be activated?
-#' @author Solve Saebo
+#' @author Solve Sæbø
 #' @keywords posterior variable-selection
 #' @export
 plot.lplsReg.dcv <- function(object, identifyVariable = FALSE){

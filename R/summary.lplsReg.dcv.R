@@ -6,7 +6,7 @@
 #' @param obj An object returned from a call to \code{lplsReg.dcv}.
 #' @return Prints the call, the total classification error and the confusion
 #' matrix.
-#' @author Solve Saebo
+#' @author Solve Sæbø
 #' @keywords classification error-rate
 #' @export
 summary.lplsReg.dcv <- function(obj){

@@ -14,7 +14,7 @@
 #' subtraction by the overall (grand) mean of all matrix elements. Only applies
 #' if both rowcenter and colcenter are \code{FALSE}.
 #' @return A centered matrix
-#' @author Solve Saebo
+#' @author Solve Sæbø
 #' @keywords lpls centering
 #' @examples
 #'

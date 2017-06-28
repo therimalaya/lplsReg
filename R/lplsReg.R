@@ -32,7 +32,7 @@
 #' matrix (X2 or X3) will be centered using the overall mean only.
 #' @param pathshrink A numeric [0, 1). May be used to perform soft - shrinkage of
 #' the rows of X3 as a type of variable selection on the background
-#' information. The properties of this is so far not much explored. See Saebo
+#' information. The properties of this is so far not much explored. See Sæbø
 #' et al. 2008b on ST - PLS for a similar approach for variable selection in PLS.
 #' @param niter The number of NIPALS iterations. Default is 10.
 #' @return
@@ -50,13 +50,13 @@
 #' \item{var1 - var3 }{The (centered) data matrices used as input}
 #' \item{var1res - var3res }{Residual matrices after extracting the information
 #' from the \code{npc} latent components.}
-#' @author Solve Saebo
-#' @references Saebo,  S.,  Almoy,  T.,  Flatberg,  A.,  Aastveit,  A.H.,  Martens,  H.
+#' @author Solve Sæbø
+#' @references Sæbø,  S.,  Almøy,  T.,  Flatberg,  A.,  Aastveit,  A.H.,  Martens,  H.
 #' (2008a) LPLS - regression: a method for prediction and classification under
 #' the influence of background information on predictor variables. Chemometrics
 #' and Intelligent Laboratory Systems,  91 (2) 121 - 132.
 #'
-#' Saebo,  S.,  Almoy,  T.,  Aaroe,  J.,  Aastveit,  A.H. (2008b) ST - PLS: A
+#' Sæbø,  S.,  Almøy,  T.,  Aaroe,  J.,  Aastveit,  A.H. (2008b) ST - PLS: A
 #' multi - directional nearest shrunken centroid type classifier via Partial
 #' Least Squares. Journal of Chemometrics,  22 (1),  54 - 62.
 #' @keywords lpls regression

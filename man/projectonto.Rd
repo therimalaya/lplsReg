@@ -28,7 +28,7 @@ X <- BCdata$X
 tt <- projectonto(X,Y)
 }
 \author{
-Solve Saebo
+Solve SÃ¦bÃ¸
 }
 \keyword{lpls}
 \keyword{projection}

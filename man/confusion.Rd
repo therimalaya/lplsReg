@@ -27,7 +27,7 @@ data(BCdata)
 confusion(factor(BCdata$Y), sample(c(0, 1), 130, replace = TRUE), c("0", "1"))
 }
 \author{
-Solve Saebo
+Solve SÃ¦bÃ¸
 }
 \keyword{classification}
 \keyword{error}

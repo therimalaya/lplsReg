@@ -26,7 +26,7 @@
 #' of X2.
 #' @param pathcol The color used for the correlation loading arrows (if
 #' arrow = 1) for X3.
-#' @author Solve Saebo
+#' @author Solve Sæbø
 #' @keywords correlation-loadings biplot
 #' @examples
 #'

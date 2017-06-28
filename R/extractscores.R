@@ -13,7 +13,7 @@
 #' @param threshold A threshold parameter in [0, 1) for potential
 #' soft - thresholding of the rows of X3.
 #' @return Returns a list og six latent vectors (normalized).
-#' @author Solve Saebo
+#' @author Solve Sæbø
 #' @keywords latent lpls NIPALS
 #' @examples
 #'

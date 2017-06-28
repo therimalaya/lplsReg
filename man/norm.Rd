@@ -22,7 +22,7 @@ x <- norm(BCdata$X[,1])
 crossprod(x)
 }
 \author{
-Solve Saebo
+Solve SÃ¦bÃ¸
 }
 \keyword{lpls}
 \keyword{normalization}
